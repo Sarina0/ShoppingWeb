@@ -1,0 +1,184 @@
+// By Yoonseo @Flaminglets
+// used in: user page
+
+// user page
+.user_div
+    min-height: 50rem
+    
+.user_backcolor
+    position: fixed
+    z-index: -5
+    background: url("../assets/images/background.png") no-repeat 100% 100%
+    background-size: cover
+    height: calc(100vh - 100px)
+    width: 100%
+    position: relative
+
+.user_profile
+    display: flex
+    justify-content: space-between
+    padding: 6rem 1rem 3rem
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+
+.user_image_div
+    background-color: white
+    width: 10rem
+    height: 10rem
+    border-radius: 100px
+    margin: 0.5rem 0 0 0
+
+.user_image
+    font-size: 12rem
+    width: 10rem
+    height: 10rem
+    border-radius: 100px
+
+.user_profile_info
+    padding: 3.5rem 1rem
+
+.user_edit_button
+    margin-top: 1rem
+
+.user_profile_info p
+    margin: 0.5rem 0
+    font-size: 2rem
+    color: #EF7827
+
+.user_divider
+    background: white
+    margin: auto
+    width: 65rem
+    height: 0.08rem
+    
+.user_content
+    width: 60rem
+    margin: 3rem auto 
+    display: flex
+    padding: 0
+    flex-wrap: wrap
+
+// user page post cards
+.user_cards
+    margin: 1rem 0.5rem
+    width: 14rem
+    height: 18rem
+
+.user_card_title
+    margin: 0.6rem 0
+    text-align: center
+    font-size: 1.3rem
+    height: 1.5rem
+
+.user_card_media
+    width: 95%
+    height: 11rem
+    background-color: grey
+    margin: 0 auto
+
+.user_card_buttons
+    display: flex
+    justify-content: space-around
+    margin-top: 0.7rem
+
+.user_card_button_found
+    color: white
+    background-color: #EF7827
+
+@media screen and (max-width: 1050px)
+    .user_div
+        min-height: 70vw
+
+    .user_profile
+        width: 45rem
+
+    .user_profile_info
+        width: 25rem
+
+    .user_edit_button
+        margin-top: 1.5vw
+
+    .user_profile_info p
+        font-size: 1.2rem
+
+    .user_divider
+        width: 90vw
+        
+    .user_content
+        width: 45rem
+
+
+@media screen and (max-width: 730px)
+    .user_div
+        min-height: 130vw
+        
+    .user_backcolor
+        height: 70vw
+
+    .user_profile
+        width: 90vw
+        padding: 12vw 2vw 6vw
+
+    .user_image_div
+        width: 20vw
+        height: 20vw
+        margin: 0.5vw 0 0 0
+
+    .user_image
+        width: 20vw
+        height: 20vw
+
+    .user_profile_info
+        width: 60vw
+        padding: 5vw 1vw
+
+    .user_edit_button
+        margin-top: 1vw
+        position: absolute
+        margin-left: 70%
+
+    .user_profile_info p
+        margin: 0.5vw 0
+        font-size: 3vw
+
+    .user_divider
+        width: 94vw
+        
+    .user_content
+        width: 90vw
+        margin: 4.5vw auto 
+        display: flex
+        padding: 0
+        justify-content: space-between
+        flex-wrap: wrap
+
+    // user page post cards
+    .user_cards
+        margin: 1.5vw 0vw
+        width: 43vw
+        height: 53vw
+
+    .user_card_title
+        margin: 1.5vw 0
+        font-size: 4vw
+        height: 5vw
+
+    .user_card_media
+        width: 95%
+        height: 33vw
+
+    .user_card_buttons
+        margin-top: 2vw
+
+    .user_card_button
+        height: 5vw
+        font-size: 2vw
+        width: 12vw
+
+    .no_session h1
+        font-size: 6vw
+
+    .no_session p
+        font-size: 3.5vw
