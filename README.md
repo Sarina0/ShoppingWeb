@@ -21,13 +21,13 @@ Features Implemented:
 Card Creation: Interface for adding new product cards and uploading them to the database.
 Card Viewing: Display of product cards with details accessible through click interactions.
 Add to Cart: Button functionality to add products to the shopping cart for future transactions.
-# Installation
-*Clone the repository:*
-git clone https://github.com/your-username/shopping-cart-website.git
+### Installation
+# *Clone the repository:*
+git clone https://github.com/Sarina0/ShoppingWeb.git
 cd shopping-cart-website
-*Install dependencies:*
+### *Install dependencies:*
 npm install
-*Set up environment variables:*
+### *Set up environment variables:*
 Create a .env.local file in the root directory.
 Add your environment variables (e.g., database connection strings).
 npm run dev
